@@ -1,4 +1,5 @@
 Summary:	Parser generation for Emacs
+Summary(pl):	Generowanie parserów dla Emacsa
 Name:		xemacs-semantic-pkg
 %define 	srcname	semantic
 Version:	1.17
@@ -20,6 +21,17 @@ The core utility is the ``semantic bovinator'' which has similar
 behaviors as yacc or bison.  Since it is not designed to be as feature
 rich as these tools, it uses the term ``bovine'' for cow, a lesser
 cousin of the yak and bison.
+
+%description -l pl
+Semantic to program dla Emacsa, który zawiera, jako podstawow± czê¶æ,
+lekser oraz kompilator kompilatorów ("bovinator"). Dodatkowe narzêdzia
+sk³adaj± siê z konwertera tablic bnf->semantic, przyk³adowych tablic
+oraz narzêdzia speedbar.
+
+Podstawowe narzêdzie to "semantyczny bovinator" o zachowaniu podobnym
+do yacca i bisona. Poniewa¿ nie ma tak bogatych mo¿liwo¶ci jak tamte
+narzêdzia, nazwany zosta³ od s³owa "bovine", czyli wo³u, mniejszego
+kuzyna jaka i bizona.
 
 %prep
 %setup -q -c
