@@ -1,5 +1,5 @@
 Summary:	Parser generation for Emacs
-Summary(pl.UTF-8):   Generowanie parserów dla Emacsa
+Summary(pl.UTF-8):	Generowanie parserów dla Emacsa
 Name:		xemacs-semantic-pkg
 %define 	srcname	semantic
 Version:	1.18
