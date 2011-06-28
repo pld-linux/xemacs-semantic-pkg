@@ -2,12 +2,12 @@ Summary:	Parser generation for Emacs
 Summary(pl.UTF-8):	Generowanie parserów dla Emacsa
 Name:		xemacs-semantic-pkg
 %define 	srcname	semantic
-Version:	1.18
-Release:	2
+Version:	1.21
+Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	bb333c47f371748a1e923893c98d7b3f
+# Source0-md5:	2f1b44bf608b5abdf9a481466aa2132c
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
 Requires:	xemacs
